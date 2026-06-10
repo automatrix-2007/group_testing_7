@@ -1,0 +1,12 @@
+name: testing actions workflow
+
+on:
+  push:
+
+jobs:
+  action-workflow:
+    runs-on: ubuntu-latest
+
+    steps: 
+    -  name: printing text
+       run: echo "tested successfully"
